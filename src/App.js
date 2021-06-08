@@ -17,7 +17,7 @@ const App = () => {
       <ToastContainer
         autoClose={2500}
         position="top-right"
-        closeButton={false}
+        closeButton={true}
       />
       {token ? <Router /> : <Auth />}
     </ThemeProvider>
